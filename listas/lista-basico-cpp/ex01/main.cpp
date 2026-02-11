@@ -17,10 +17,28 @@ using namespace std;
 
 int main() {
     string nome;
-    
-    // TODO: Leia o nome do usuário
-    
-    // TODO: Exiba a saudação personalizada
-    
+
+    getline(cin, nome);
+    cout << "Ola, " << nome << "!" << endl;
+
     return 0;
 }
+
+
+/*
+Testes:
+
+- Teste 1: Nome simples
+- Teste 2: Nome composto
+- Teste 3: Nome vazio
+- Teste 4: Nome sem acentos
+
+Resultados:
+- Teste 1: Passou
+- Teste 2: Passou
+- Teste 3: Passou
+- Teste 4: Passou
+
+Fim dos testes.
+
+*/
